@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>summary-day03</h1>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#">link1</a></li>
+                    <li><a href="#">link2</a></li>
+                    <li><a href="#">link3</a></li>
+                </ul>
+            </nav>
+            <section class="elements">
+                <h2>Block vs. Inline Elements - Divs and Spans</h2>
+                <hr>
+                <div>block elements take the full width</div>
+                <span>inline elements <span class="fit">fit</span> as it needs</span>
+            </section>
+            <section class="elements">
+                <h2>An Odd Assortment of Elements: HR, BR, Sup, & Sub</h2>
+                <hr>
+                <p>subscript element</p>
+                <span>H<sub>2</sub>O</span>
+                <p>supscript element</p>
+                <span>2<sup>2</sup> =</span>
+                <p>horizontal rule and the bread elements</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,<br>
+                     voluptate <br> ut qui natus quod <br> est exercitationem sunt nam porro quia,
+                      iste quasi incidunt necessitatibus atque, delectus blanditiis? Iusto,
+                       reprehenderit magnam?</p>
+            </section>
+            <section>
+                <h2>Entity Codes</h2>
+                <p>Entity Codes are <strong>inline elements!</strong></p>
+                <hr>
+                <p>copy right symbol &#169;</p>
+                <p>registered trademark symbol &reg;</p>
+            </section>
+            <section>
+                <caption>Table Practice</caption>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>age</th>
+                            <th>country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ahmad</td>
+                            <td>20</td>
+                            <td>jordan</td>
+                        </tr>
+                        <tr>
+                            <td>osama</td>
+                            <td>25</td>
+                            <td>usa</td>
+                        </tr>
+                        <tr>
+                            <td>yaser</td>
+                            <td>33</td>
+                            <td>poland</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="form">
+                <h2>Forms Practice Exercise</h2>
+                <form action="">
+                    <div>
+                        <label for="first">First Name</label>
+                        <input type="text" name="first" id="first" placeholder="First Name" required minlength="2" maxlength="10">
+                        <label for="last">Last Name</label>
+                        <input type="text" name="last" id="last" placeholder="Last Name" required minlength="2" maxlength="10">
+                    </div>
+                    <div>
+                        <p>Select a Race</p>
+                        <input type="radio" name="race" id="funrun" value="Fun Run">
+                        <label for="funrun">Fun Run 5K</label>
+                        <br>
+                        <input type="radio" name="race" id="half" value="Half Marathon">
+                        <label for="half">Half Marathon</label>
+                        <br>
+                        <input type="radio" name="race" id="full" value="Full Marathon">
+                        <label for="full">Full Marathon</label>
+                    </div>
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail" required>
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" required minlength="8" maxlength="30">
+                    <br>
+                    <label for="age">Select Age Group</label>
+                    <select name="age" id="age">
+                        <option value="under 18">Under 18</option>
+                        <option value="18-30" selected>18-30</option>
+                        <option value="30-50">30-50</option>
+                        <option value="50+">50+</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Register!">
+                </form>
+            </section>
+            <section class="css">
+                <h2>css edited</h2>
+                <div class="back-color"></div>
+                <p class="pus">there is types of coloring HEX , HSL , RGB RED GREEN BLUE</p>
+                <P class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Dolor repellat optio molestiae incidunt excepturi eius vitae,
+                      illo maiores eveniet iusto quasi impedit nesciunt. Laborum aperiam
+                       expedita nostrum excepturi et esse.</P>
+            </section>
+            <footer>
+                <h2>the ending of what i learn</h2>
+                <p>we can make the block elements to inline elements <br>
+                    the font size property with em unit and rem unit <br>
+                   border , padding affect the width and height <br>
+                   box-sizing: border-box; property allows us to include the padding and border in an element's total width and height <br>
+                   there is an rules of css Specificity and the strongest is the inline one but there is !important is stronger
+             </p>
+            </footer>
+        </main>
+</body>
+</html>
